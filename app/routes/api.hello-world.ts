@@ -2,10 +2,7 @@ import type { ActionFunctionArgs } from "@remix-run/node";
 import { tasks } from "@trigger.dev/sdk/v3";
 import { helloWorldTask } from "src/trigger/example";
 
-import { configure, runs } from "@trigger.dev/sdk/v3";
 
-
-// Needed to put secret key on system somehow ...
 export async function action({ request }: ActionFunctionArgs) {
 
   
