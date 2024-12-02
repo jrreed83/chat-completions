@@ -13,7 +13,7 @@ export const helloWorldTask = task({
     await wait.for({ seconds: 5 });
 
     return {
-      message: "Hello, world!",
+      message: "Hello, from your deployed trigger task!",
     }
   },
 });
